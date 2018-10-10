@@ -1,0 +1,101 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+
+.nav {
+  background-color:White;
+  margin:10px;
+  padding:10px;
+}
+
+.nav ul {
+  list-style-type:none;
+  background-color:White;
+  display:inline-block;
+  margin:0;
+  padding:0;
+  zoom:1;
+  *display:inline;
+}
+
+.nav li {
+  display:inline;
+  float:left;
+  padding:2px 5px;
+  }
+
+.Joe {
+  display:block;
+  padding:8px;
+  color:Black;
+  text-decoration:none;
+  font-family:'Lalezar';
+  font-size:30px;
+  letter-spacing:6px;
+  margin-right:15px;
+}
+
+li a {
+  display:block;
+  padding:8px;
+  color:Black;
+  text-decoration:none;
+  font-family:'Lalezar';
+  font-size:20px;
+  letter-spacing:6px;
+}
+
+.landing_photo {
+  width:100%;
+  height:500px;
+  position:relative;
+  background:grey;
+  opacity:.9;
+  background-image:url("images/joe_home.jpeg");
+}
+
+.landing_title {
+  position:absolute;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.landing_title h1{
+  color:white;
+  font-family:Impact, Charcoal, sans-serif;
+  font-size:60px;
+  letter-spacing:5px;
+}
+
+
+.landing_title button {
+  position:relative;
+  float:left;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:black;
+  font-family:Impact, Charcoal, sans-serif;
+  font-size:25px;
+  letter-spacing:5px;
+}
+
+.col-xs-4 {
+text-align:center;
+}
+
+.banner_image {
+  font-size:60px;
+  color:white;
+  background-image:url(images/cookies.jpeg);
+  height:200px;
+  text-align:center;
+  padding-top:55px;
+}
+
+.menu_text {
+  text-align:left;
+}
