@@ -83,19 +83,45 @@ li a {
   letter-spacing:5px;
 }
 
-.col-xs-4 {
-text-align:center;
-}
-
 .banner_image {
   font-size:60px;
   color:white;
-  background-image:url(images/cookies.jpeg);
-  height:200px;
+  background-color:#737373;
+  height:120px;
   text-align:center;
-  padding-top:55px;
+  padding-top:16px;
 }
 
 .menu_text {
   text-align:left;
+}
+
+.margin {
+  margin-top:40px;
+}
+
+.grey_background {
+  background-color:#E8E8E8;
+  width:100%;
+}
+
+.padding {
+  padding-top:20px;
+  padding-bottom:30px;
+}
+
+.row p {
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:Montserrat;
+}
+
+.col-xs-4 {
+  text-align:center;
+}
+
+.col-sm-4 {
+  border-width:2px;
+  border-color:black solid;
 }
